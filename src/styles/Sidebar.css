@@ -1,0 +1,77 @@
+/* AdminLayout.css */
+
+/* Layout container */
+.admin-layout {
+  display: flex;
+  min-height: 100vh; /* Ensure it covers the full height */
+}
+
+/* Sidebar container */
+.sidebar-container {
+  width: 260px;
+  height: calc(100vh - 110px); /* Full viewport height minus header and footer */
+  background-color: #292525; /* Dark background color */
+  color: #fff; /* White text color */
+  display: flex;
+  flex-direction: column;
+  padding: 16px; /* Adjust padding as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: fixed;
+  top: 60px; /* Space below the header */
+  left: 0;
+  overflow-y: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 100%; /* Full width of the sidebar container */
+  height: 100%;
+  background-color: #333; /* Slightly lighter dark background */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px; /* Adjust padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+/* Remove default list styles */
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style each link item */
+.sidebar-links li {
+  margin: 1rem 0;
+}
+
+/* Style the links */
+.sidebar-links a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Change link background color on hover */
+.sidebar-links a:hover {
+  background-color: #444; /* Darker background on hover */
+  color: #ff5722; /* Accent color on hover */
+}
+
+/* Style icons with margin to the right of the text */
+.sidebar-links a svg {
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+/* Main content container */
+.admin-main {
+  margin-left: 250px; /* Offset for sidebar width */
+  padding: 20px;
+  flex: 1; /* Allows content to grow */
+  background-color: #f4f4f4; /* Light background for main content */
+}

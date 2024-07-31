@@ -1,0 +1,107 @@
+.product-info-management {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for the whole page */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #343a40; /* Dark background color for the cards */
+  color: white; /* Set text color to white */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.product-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: white; /* Ensure headings are white */
+}
+
+.product-details p {
+  margin: 5px 0;
+  color: #ccc; /* Slightly lighter color for details */
+}
+
+.product-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.product-actions .edit-button,
+.product-actions .delete-button,
+.product-actions .order-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.product-actions .edit-button:hover,
+.product-actions .delete-button:hover,
+.product-actions .order-button:hover {
+  background-color: #0056b3;
+}
+
+.product-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-form h2 {
+  margin-top: 0;
+}
+
+.product-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-form .add-button,
+.product-form .update-button {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.product-form .add-button:hover,
+.product-form .update-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,16 @@
+.page-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .page-container h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .page-container p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  

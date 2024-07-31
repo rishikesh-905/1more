@@ -1,0 +1,35 @@
+.order-management {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.order-card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-form-card {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-button, .delete-button {
+  margin-right: 10px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.update-button {
+  background-color: #28a745;
+}
+
+.add-button {
+  background-color: #007bff;
+}

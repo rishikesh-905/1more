@@ -1,0 +1,25 @@
+.reorder-management {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .reorder-management h2 {
+    margin-bottom: 20px;
+  }
+  
+  .reorder-management p {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  

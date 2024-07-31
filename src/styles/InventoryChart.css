@@ -1,0 +1,56 @@
+/* InventoryChart.css */
+
+.inventory-chart {
+  max-width: 960px; /* Optimal width for large displays */
+  margin: 30px auto; /* Centered with ample margin */
+  padding: 25px 35px; /* Generous padding for spacing */
+  background: #f9f9f9; /* Light background for better contrast */
+  border-radius: 15px; /* More rounded corners for a softer look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12); /* Enhanced shadow for depth */
+  border: 1px solid #dcdcdc; /* Subtle border for definition */
+}
+
+.inventory-chart h2 {
+  text-align: center;
+  font-size: 32px; /* Larger font size for prominence */
+  font-weight: 600; /* Semi-bold for emphasis */
+  color: #444; /* Slightly lighter color for better readability */
+  margin-bottom: 25px; /* Adequate space below the heading */
+  letter-spacing: 0.5px; /* Slight letter spacing for readability */
+}
+
+.chart-container {
+  position: relative;
+  height: 450px; /* Suitable height for detailed charts */
+}
+
+.chart-container canvas {
+  width: 100% !important; /* Full width for responsiveness */
+  height: auto !important; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .inventory-chart {
+    padding: 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .inventory-chart h2 {
+    font-size: 28px; /* Slightly smaller font size */
+    margin-bottom: 20px; /* Reduced margin for compact view */
+  }
+
+  .chart-container {
+    height: 350px; /* Reduced height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .inventory-chart h2 {
+    font-size: 24px; /* Further reduced font size for mobile */
+    margin-bottom: 15px; /* Reduced margin for space efficiency */
+  }
+
+  .chart-container {
+    height: 300px; /* Adjusted height for mobile devices */
+  }
+}

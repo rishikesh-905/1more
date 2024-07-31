@@ -1,0 +1,118 @@
+/* InventoryTracking.css */
+
+.inventory-tracking-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.inventory-tracking-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tracking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.tracking-table th,
+.tracking-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.tracking-table th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.tracking-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tracking-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.add-item-form {
+  margin-top: 20px;
+}
+
+.add-item-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.action-button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+  margin-top: 10px;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.update-button {
+  background-color: #ffc107;
+  color: white;
+  margin-top: 10px;
+}
+
+.update-button:hover {
+  background-color: #e0a800;
+}
+
+.cancel-button {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 10px;
+}
+
+.cancel-button:hover {
+  background-color: #5a6268;
+}
